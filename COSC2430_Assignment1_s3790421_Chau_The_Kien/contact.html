@@ -1,0 +1,77 @@
+<!--RMIT University Vietnam
+Course: COSC2430 Web Programming
+Semester: 2023A
+Assessment: Assignment 1
+Author: Chau The Kien
+ID: s3790421
+Acknowledgement: Acknowledge the resources that you use here. -->
+<html>
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact us</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/contact.css">
+    </head>
+
+    <body>
+      <nav class="navbar">
+        <img src="images/logo.png", width="200", height="150">
+        <h1>BookWorm Online Store</h1>
+        <div class="nav-right">
+            <li>Home</li>
+            <li>Fiction</li>
+            <li>Non-Fiction</li>
+        </div>
+      </nav>
+
+      <div class="button3">Submit</div>
+      <div class="button4">Reset</div>
+  
+      <center>
+        <p>If you have any questions regardless on the website</p>
+        <p>Please feel free to contact us at</p>
+        <p>Address:</p>
+        <p>Phone No:</p>
+        <p>Social Media:</p>
+      </center>
+</body>
+
+<div class="container">
+  <form action="action_page.php">
+      <label for="purpose">Purpose</label>
+      <select id="purpose" name="purpose">
+      <option value="I want to sell books">I want to sell books</option>
+      <option value="I want to buy books">I want to buy books</option>
+    </select>
+
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name">
+
+    <label for="email">Email</label>
+    <input type="email" id="email" email="email" placeholder="Enter your email">
+
+    <label for="phone">Phone</label>
+    <input type="number" id="number" name="phone" placeholder="Enter your phone number"><br>
+
+    <label for="contactpref">Contact Preference</label>
+    <input type="checkbox" id="pref1" name="pref1" value="By Email">
+    <label for="pref1">By Email</label>
+    <input type="checkbox" id="pref2" name="pref2" value="By Phone">
+    <label for="pref2">By Phone</label><br>
+
+    <label for="receive">Receive weekly newspaper</label>
+    <input type="checkbox" id="pref2" name="pref2" value="By Phone">
+    <label for="pref3">Yes</label>
+    <input type="checkbox" id="pref2" name="pref2" value="By Phone">
+    <label for="pref4">No</label><br>
+    
+</div>
+
+
+  <div class="footer">
+    <p>About us<br>
+        <p>Privacy policy<br>
+        <p>Terms<br>
+        <p>Contact us<br>
+</div>
+  </html>

@@ -1,0 +1,227 @@
+/*RMIT University Vietnam
+Course: COSC2430 Web Programming
+Semester: 2023A
+Assessment: Assignment 1
+Author: Chau The Kien
+ID: s3790421
+Acknowledgement: Acknowledge the resources that you use here. */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+html{
+  height: 100%;
+}
+
+body {
+  background-color: bisque;
+  margin:0;
+
+  min-height: 100%;
+}
+
+heading1{
+  margin-top: 20px;
+  font-style: italic;
+  text-decoration-color: blueviolet;
+}
+
+.content1{
+  margin-top: 10px;
+}
+
+.content2{
+  margin-top: 10px;
+}
+
+.navbar{
+  display: flex;
+  background-color:darksalmon;
+  position: top;
+  top:0;
+  width: 100%;
+  font-size: 20px;
+} 
+
+.nav-right{
+  text-align: right;
+  float:right;
+}
+
+.column{
+  flex: 33.3%;
+  padding: 5px;
+}
+
+.row{
+  float: left;
+  position: relative;
+  font-size: 15;
+  text-align: center;
+  width: 32%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.block{
+  width: 100px;
+  float:left;
+}
+
+.heading2{
+  margin-top: 30px;
+  font
+}
+
+.section1{
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+
+body{
+  font-family: 'Times New Roman', Times, serif;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+nav{
+  position: top;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 10px 30;
+}
+
+nav ul li a{
+  position: inherit;
+  text-decoration:dashed;
+  color: blue;
+}
+
+.container{
+  background-color: antiquewhite;
+  position: absolute;
+  align-items: center;
+  top: 0;
+  right: 12;
+}
+
+.footer{
+  display: flex;
+  font-size: 20;
+  text-shadow: #333;
+  position: bottom;
+  justify-content: space-between;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: darksalmon;
+  color: black;
+  text-align: center;
+}
+
+.galary div{
+  display: inline;
+}
+
+div.gallery a:hover {
+  border: 1px solid white;
+}
+
+div.gallery image-holder desc {
+  text-align: center;
+}
+
+li {
+  display: inline;
+  float: left;
+  padding-left: 15px;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+  text-decoration: none;
+  color:white;
+}
+
+li ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li a:hover {
+  background-color: rgb(31, 199, 106);
+}
+
+/*style for the breadcrumb*/
+ul.breadcrumb {
+  padding: 10px 18px;
+  list-style: none;
+  background-color: darksalmon;
+}
+ul.breadcrumb li {
+  display: flex;
+  font-size: 18px;
+}
+ul.breadcrumb li+li:before {
+  padding: 10px;
+  color: lightskyblue;
+  content: "/\00a0";
+}
+ul.breadcrumb li a {
+  color: darkblue;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  color: blue;
+  text-decoration: none;
+}
+
+/*creat a buttons*/
+.button1{
+  margin-top: 20px;
+  margin-left: 30%;
+  background-color: greenyellow;
+  border: black;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.button2{
+  margin-left: 50px;
+  background-color: paleturquoise;
+  border: black;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.text{
+  text-align: center;
+  float: auto;
+}
